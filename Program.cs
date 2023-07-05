@@ -110,7 +110,7 @@ namespace Calculator
             double result2;
 
             Console.WriteLine("If you wanna round up write up");
-            Console.WriteLine("if you wanna round down write down");
+            Console.WriteLine("if you wanna round normaly write normal");
             String Answer2 = Console.ReadLine();
             if (Answer2 == "up"){
                 Console.WriteLine("The number: ");
@@ -118,7 +118,7 @@ namespace Calculator
                 result2 = Math.Ceiling(num);
                 Console.WriteLine("The result is: " + result2);
             }
-            if (Answer2 == "down"){
+            if (Answer2 == "normal"){
                 Console.WriteLine("The number: ");
                 num = Convert.ToDouble(Console.ReadLine());
                 result2 = Math.Round(num);
